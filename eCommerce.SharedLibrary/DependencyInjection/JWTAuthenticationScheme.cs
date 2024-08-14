@@ -27,9 +27,9 @@ namespace eCommerce.SharedLibrary.DependencyInjection
                         ValidateActor = true,
                         ValidateLifetime = false,
                         ValidateIssuerSigningKey = true,
-                        ValidIssuer  = issuer,
+                        ValidIssuer = issuer,
                         ValidAudience = audience,
-                        IssuerSigningKey = new SymmetricSecurityKey(key)    
+                        IssuerSigningKey = new SymmetricSecurityKey(key)
                     };
 
                 });
